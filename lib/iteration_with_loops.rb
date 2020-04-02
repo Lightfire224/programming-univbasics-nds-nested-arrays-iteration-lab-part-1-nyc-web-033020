@@ -6,11 +6,11 @@ def find_even_values(src)
   
   while row_index < src.count
     element_index = 0
-    while element_index < row_index.count
-      if src[row_index[element]].even?
-        src[row_index[element]]
-      end
-      element_index += 1
-    row_index += 1 
-  end
+      while element_index < row_index.count
+        if src[row_index[element]].even?
+          src[row_index[element]]
+        end
+        element_index += 1
+      row_index += 1 
+    end
 end
