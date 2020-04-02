@@ -4,9 +4,9 @@ def find_even_values(src)
   # Output all even values in each nested array
   row_index = 0
   
-  while row_index < src.count
+  while row_index < src.length
     element_index = 0
-      while element_index < row_index.count
+      while element_index < row_index.length
         if src[row_index[element]].even?
           src[row_index[element]]
         end
