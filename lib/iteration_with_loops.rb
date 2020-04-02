@@ -9,6 +9,7 @@ def find_even_values(src)
     while element_index < row_index.length
       if src[row_index[element]].even?
         src[row_index[element]]
+      end
       element_index += 1
     row_index += 1 
 end
